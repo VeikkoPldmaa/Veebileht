@@ -30,10 +30,18 @@
 			kasutamisega.
 			
 			</p>
-			
-			<img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Elon_Musk_2015.jpg" alt="Elon Musk 2015">
-			
-			
+		<body onload="slider()">
+			<img id="slideshow">
+			<script type="text/javascript">
+				var i = 1;
+				function vahetus(){
+				document.getElementById("slideshow").src ="elon" + (i++ % 6)+".jpg";
+				}
+				function slider(){
+					setInterval(vahetus, 1000);
+				}
+			</script>
+		</body>
 		</div>
 		
 		
