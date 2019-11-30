@@ -1,5 +1,5 @@
 body {
-	background-color: #483D8B;
+	background-color: #262753;
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
 }
 
 p {
+	color: white;
 	font-family: helvetica;
 	font-size: 20px;
 
